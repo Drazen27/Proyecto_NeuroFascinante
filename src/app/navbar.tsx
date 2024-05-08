@@ -18,7 +18,7 @@ const NavBar: React.FC = () => {
 
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
-      if (window.innerWidth > 824) {
+      if (window.innerWidth > 1024) {
         setIsMenuOpen(false);
       }
     };
@@ -44,14 +44,39 @@ const NavBar: React.FC = () => {
             <Image src={icons.LogoV3Trans} alt="Logo" />
           </div>
         </div>
-        <div className="lg:hidden">
-          <button className="block text-gray-500 hover:text-gray-900 focus:text-gray-900 focus:outline-none" onClick={toggleMenu}>
-            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
+        {windowWidth <= 1024? 
+       <div className="relative inline-block text-left mr-4">
+        <div>
+          <button type="button" className="inline-flex w-full justify-center gap-x-1.5 rounded-md
+          bg-white px-3 py-2 text-sm font-semibold  shadow-sm ring-1 ring-inset ring-dark-purple hover:bg-gray-50" id="menu-button" aria-expanded="true" aria-haspopup="true" onClick={toggleMenu}>
+              <svg className="h-6 w-6 stroke-dark-purple border-dark-purple" fill="none" viewBox="0 0 24 24" >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
           </button>
+          </div>
+          {isMenuOpen?
+            <div className="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex={-1}>
+              <div className="py-1" role="none">
+                <a href="#"className="text-sky-blue hover:text-pink-panter block px-4 py-2 text-sm" role="menuitem" tabIndex={-1} id="menu-item-0">Inicio</a>
+              </div>
+              <div className="py-1" role="none">
+                <a href="#" className="text-sky-blue hover:text-pink-panter block px-4 py-2 text-sm" role="menuitem" tabIndex={-1} id="menu-item-1">¿Quiénes somos?</a>
+              </div>
+              <div className="py-1" role="none">
+                <a href="#" className="text-sky-blue hover:text-pink-panter block px-4 py-2 text-sm" role="menuitem" tabIndex={-1} id="menu-item-2">¿Qué ofrecemos?</a>
+              </div>
+              <div className="py-1" role="none">
+                <a href="#" className="text-sky-blue hover:text-pink-panter block px-4 py-2 text-sm" role="menuitem" tabIndex={-1} id="menu-item-3">Contactanos</a>
+              </div>
+            </div>
+           :
+           <>
+           </>
+           }
+            
         </div>
-        <ul className={`lg:flex space-x-9 ${isMenuOpen && windowWidth <= 824 ? 'flex-col mt-4 lg:mt-0 lg:absolute lg:left-0 lg:top-12' : 'hidden'}`}>
+        :
+        <ul className={`lg:flex space-x-9 ${windowWidth <= 1024 ? 'hidden' : ''}`}>
           <li>
             <Link href="/">
               <div className={`text-sky-blue font-bold hover:text-pink-panter ${isScrolled ? 'text-2xl' : 'text-[28px]/[34px]'}`}>Inicio</div>
@@ -59,15 +84,21 @@ const NavBar: React.FC = () => {
           </li>
           <li>
             <Link href="/about">
-              <div className={`text-sky-blue font-bold hover:text-pink-panter ${isScrolled ? 'text-2xl' : 'text-[28px]/[34px]'}`}>Acerca de Nosotros</div>
+              <div className={`text-sky-blue font-bold hover:text-pink-panter ${isScrolled ? 'text-2xl' : 'text-[28px]/[34px]'}`}>¿Quiénes somos?</div>
+            </Link>
+          </li>
+          <li>
+            <Link href="/offer">
+              <div className={`text-sky-blue font-bold hover:text-pink-panter ${isScrolled ? 'text-2xl' : 'text-[28px]/[34px]'}`}>¿Qué ofrecemos?</div>
             </Link>
           </li>
           <li>
             <Link href="/contact">
-              <div className={`text-sky-blue font-bold hover:text-pink-panter ${isScrolled ? 'text-2xl' : 'text-[28px]/[34px]'}`}>Contacto</div>
+              <div className={`text-sky-blue font-bold hover:text-pink-panter ${isScrolled ? 'text-2xl' : 'text-[28px]/[34px]'}`}>Contáctanos</div>
             </Link>
           </li>
         </ul>
+        }
       </div>
     </nav>
   );

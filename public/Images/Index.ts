@@ -14,7 +14,7 @@ import TDH from "./Neurofascinante/TDAH.png"
 import TDH2 from "./Neurofascinante/TDAH 2.png"
 import TerapiaC from "./Neurofascinante/Terapia conductual.png"
 import TerapiaC2 from "./Neurofascinante/Terapia conductual 2.png"
-import TerapiaE from "./Neurofascinante/Terapia emocional.png"
+import TerapiaE from "./Neurofascinante/Terapia emocional 1.png"
 import TerapiaE2 from "./Neurofascinante/Terapia emocional 2.png"
 
 interface Images {

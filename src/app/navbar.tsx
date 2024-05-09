@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
-import icons from './utils/icons/Index';
+import icons from '../../public/Icons/Index';
 
 const NavBar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);

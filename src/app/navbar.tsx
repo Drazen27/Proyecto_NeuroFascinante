@@ -18,7 +18,7 @@ const NavBar: React.FC = () => {
 
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
-      if (window.innerWidth > 1024) {
+      if (window.innerWidth > 832) {
         setIsMenuOpen(false);
       }
     };
@@ -37,14 +37,14 @@ const NavBar: React.FC = () => {
   };
 
   return (
-    <nav className={`bg-white fixed w-full top-0 z-10 transition-all duration-300 shadow-md ${isScrolled ? 'h-32' : 'h-36'}`}>
+    <nav className={`bg-white fixed px-8 w-full top-0 z-10 transition-all duration-300 shadow-md ${isScrolled ? 'h-32' : 'h-36'}`}>
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex-grow">
           <div className={`${isScrolled ? 'w-32' : 'w-36'} h-full flex items-center`}>
             <Image src={icons.LogoV3Trans} alt="Logo" />
           </div>
         </div>
-        {windowWidth <= 1024? 
+        {windowWidth <= 832? 
        <div className="relative inline-block text-left mr-4">
         <div>
           <button type="button" className="inline-flex w-full justify-center gap-x-1.5 rounded-md
@@ -57,16 +57,16 @@ const NavBar: React.FC = () => {
           {isMenuOpen?
             <div className="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-dark-purple ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex={-1}>
               <div className="py-1" role="none">
-                <a href="#"className="text-dark-purple hover:text-pink-panter block px-4 py-2 text-sm" role="menuitem" tabIndex={-1} id="menu-item-0">Inicio</a>
+                <Link href="/"className="text-dark-purple hover:text-pink-panter block px-4 py-2 text-sm" role="menuitem" tabIndex={-1} id="menu-item-0">Inicio</Link>
               </div>
               <div className="py-1" role="none">
-                <a href="#" className="text-dark-purple hover:text-pink-panter block px-4 py-2 text-sm" role="menuitem" tabIndex={-1} id="menu-item-1">¿Quiénes somos?</a>
+                <Link href="/pages/about" className="text-dark-purple hover:text-pink-panter block px-4 py-2 text-sm" role="menuitem" tabIndex={-1} id="menu-item-1">¿Quiénes somos?</Link>
               </div>
               <div className="py-1" role="none">
-                <a href="#" className="text-dark-purple hover:text-pink-panter block px-4 py-2 text-sm" role="menuitem" tabIndex={-1} id="menu-item-2">¿Qué ofrecemos?</a>
+                <Link href="/pages/offer" className="text-dark-purple hover:text-pink-panter block px-4 py-2 text-sm" role="menuitem" tabIndex={-1} id="menu-item-2">¿Qué ofrecemos?</Link>
               </div>
               <div className="py-1" role="none">
-                <a href="#" className="text-dark-purple hover:text-pink-panter block px-4 py-2 text-sm" role="menuitem" tabIndex={-1} id="menu-item-3">Contactanos</a>
+                <Link href="/pages/contact" className="text-dark-purple hover:text-pink-panter block px-4 py-2 text-sm" role="menuitem" tabIndex={-1} id="menu-item-3">Contactanos</Link>
               </div>
             </div>
            :
@@ -76,25 +76,25 @@ const NavBar: React.FC = () => {
             
         </div>
         :
-        <ul className={`lg:flex space-x-9 ${windowWidth <= 1024 ? 'hidden' : ''}`}>
+        <ul className={`flex space-x-2 ${windowWidth <= 832 ? 'hidden' : ''}`}>
           <li>
             <Link href="/">
-              <div className={`text-sky-blue font-bold hover:text-pink-panter ${isScrolled ? 'text-2xl' : 'text-[28px]/[34px]'}`}>Inicio</div>
+              <div className={`text-sky-blue font-bold hover:text-pink-panter ${isScrolled ? 'text-xl' : 'text-[22px]/[26px]'}`}>Inicio</div>
             </Link>
           </li>
           <li>
-            <Link href="/about">
-              <div className={`text-sky-blue font-bold hover:text-pink-panter ${isScrolled ? 'text-2xl' : 'text-[28px]/[34px]'}`}>¿Quiénes somos?</div>
+            <Link href="/pages/about">
+              <div className={`text-sky-blue font-bold hover:text-pink-panter ${isScrolled ? 'text-xl' : 'text-[22px]/[26px]'}`}>¿Quiénes somos?</div>
             </Link>
           </li>
           <li>
-            <Link href="/offer">
-              <div className={`text-sky-blue font-bold hover:text-pink-panter ${isScrolled ? 'text-2xl' : 'text-[28px]/[34px]'}`}>¿Qué ofrecemos?</div>
+            <Link href="/pages/offer">
+              <div className={`text-sky-blue font-bold hover:text-pink-panter ${isScrolled ? 'text-xl' : 'text-[22px]/[26px]'}`}>¿Qué ofrecemos?</div>
             </Link>
           </li>
           <li>
-            <Link href="/contact">
-              <div className={`text-sky-blue font-bold hover:text-pink-panter ${isScrolled ? 'text-2xl' : 'text-[28px]/[34px]'}`}>Contáctanos</div>
+            <Link href="/pages/contact">
+              <div className={`text-sky-blue font-bold hover:text-pink-panter ${isScrolled ? 'text-xl' : 'text-[22px]/[26px]'}`}>Contáctanos</div>
             </Link>
           </li>
         </ul>

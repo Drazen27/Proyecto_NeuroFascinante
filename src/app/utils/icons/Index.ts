@@ -28,6 +28,7 @@ import LogoV3Morado from "./logo neuro_version3/neuro_3.7-morado.png";
 import LogoV3Naranja from "./logo neuro_version3/neuro_3.8-naranja.png";
 import LogoV3Verde from "./logo neuro_version3/neuro_3.9-verde.png";
 
+import Fondo from "./fondo.jpg"
 
 interface Icons {
     [key: string]: string | any;
@@ -63,6 +64,8 @@ const icons: Icons = {
     LogoV3Morado,
     LogoV3Naranja,
     LogoV3Verde,
+
+    Fondo,
   };
   
   export default icons;

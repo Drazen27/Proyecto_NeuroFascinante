@@ -4,7 +4,7 @@ import Images from "../../public/Images/Index";
 
 export default function Home() {
   return (
-    <main>
+    <main className="mx-auto">
       <section className="flex items-center justify-center h-[700px]">
         <video autoPlay muted loop className="w-full h-full object-cover">
           <source src="https://video.wixstatic.com/video/0b340f_b4aaabafff194cf6ac9ee5511f58099d/720p/mp4/file.mp4" type="video/mp4" />
@@ -22,7 +22,7 @@ export default function Home() {
         backgroundSize: 'cover', backgroundPosition: 'center'}}>
           <div className="  w-[50%]  p-0 shadow-md items-center justify-cente">
             <div className="w-full h-fit p-3 bg-sky-blue  bg-opacity-50">
-              <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'}}>Terapia Niños con TDAH </h5>
+              <h5 className="mb-2 text-xl md:text-2xl text-center font-bold tracking-tight text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'}}>Terapia Niños con TDAH </h5>
             </div>
             <div className="w-full p-4 bg-gray-400 bg-opacity-50">
               <p className="mb-3 font-normal text-white text-base md:text-sm md:mb-1 lg:text-base xl:text-base text-center" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 1)'}}>Terapia especializada diseñada para mejorar la concentración, la organización y el control de los impulsos. Para un mejor rendimiento académico y social. </p> 
@@ -33,7 +33,7 @@ export default function Home() {
         backgroundSize: 'cover', backgroundPosition: 'center',transform: 'scaleX(-1)'}}>
           <div style={{transform: 'scaleX(-1)'}} className=" w-[45%]  p-0 shadow-md items-center justify-center ">
           <div className=" w-full h-fit p-3 bg-pink-panter bg-opacity-50">
-            <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'}}>Síndrome de Down y discapacidad </h5>
+            <h5 className="mb-2 text-xl md:text-2xl text-center font-bold tracking-tight text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'}}>Síndrome de Down y discapacidad </h5>
             </div>
 
             <div className=" w-full h-fit p-4 bg-gray-400 bg-opacity-50">
@@ -45,7 +45,7 @@ export default function Home() {
         backgroundSize: 'cover', backgroundPosition: 'center'}}>
           <div className="w-2/4 p-0 shadow-md items-center justify-center">
           <div className=" w-full h-fit p-3 bg-light-orange bg-opacity-50">
-            <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'}}>Dificultades académicas </h5>
+            <h5 className="mb-2 text-xl md:text-2xl text-center font-bold tracking-tight text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'}}>Dificultades académicas </h5>
             </div>
 
             <div className=" w-full h-fit p-4 bg-gray-400 bg-opacity-50">
@@ -57,7 +57,7 @@ export default function Home() {
         backgroundSize: 'cover', backgroundPosition: 'center'}}>
           <div className="w-[45%]  p-0 shadow-md items-center justify-center ">
           <div className="w-full h-fit p-3 bg-light-green  bg-opacity-50">
-              <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'}}>Terapia para Niños con Autismo</h5>
+              <h5 className="mb-2 text-xl md:text-2xl text-center font-bold tracking-tight text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'}}>Terapia para Niños con Autismo</h5>
             </div>
 
             <div className="w-full h-fit p-4 bg-gray-400 bg-opacity-50">
@@ -65,11 +65,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-start min-h-[400px] max-w-[600px]" style={{backgroundImage: "url('/Images/Neurofascinante/DIficultades específicas del aprendizaje 2.png')",
+        <div className="flex justify-center items-start min-h-[400px] max-w-[600px]" style={{backgroundImage: "url('/Images/Neurofascinante/Dificultades de aprendizaje 2.png')",
         backgroundSize: 'cover', backgroundPosition: 'center'}}>
           <div className="w-[44%]  p-0 shadow-md items-center justify-center ">
           <div className="w-full h-fit p-3 bg-dark-purple  bg-opacity-50">
-              <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'}}>Problemas de Aprendizaje</h5>
+              <h5 className="mb-2 text-xl md:text-2xl text-center font-bold tracking-tight text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'}}>Problemas de Aprendizaje</h5>
             </div>
 
             <div className="w-full h-fit p-4 bg-gray-400 bg-opacity-50">
@@ -81,7 +81,7 @@ export default function Home() {
         backgroundSize: 'cover', backgroundPosition: 'center'}}>
           <div className="w-[40%]  p-0 shadow-md items-center justify-center ">
           <div className="w-full h-fit p-3 bg-yellow-300  bg-opacity-50">
-              <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'}}>Evaluaciones con Pruebas Psicométricas</h5>
+              <h5 className="mb-2 text-xl md:text-2xl text-center font-bold tracking-tight text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'}}>Evaluaciones con Pruebas Psicométricas</h5>
             </div>
 
             <div className="w-full h-fit p-4 bg-gray-400 bg-opacity-50">
@@ -93,7 +93,7 @@ export default function Home() {
         backgroundSize: 'cover', backgroundPosition: 'center'}}>
           <div className="w-[54%]  p-0 shadow-md items-center justify-center ">
           <div className="w-full h-fit p-3 bg-red-600  bg-opacity-50">
-              <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'}}>Terapia Conductual</h5>
+              <h5 className="mb-2 text-xl md:text-2xl text-center font-bold tracking-tight text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'}}>Terapia Conductual</h5>
             </div>
 
             <div className="w-full h-fit p-4 bg-gray-400 bg-opacity-50">
@@ -105,7 +105,7 @@ export default function Home() {
         backgroundSize: 'cover', backgroundPosition: 'center'}}>
           <div className="w-[38%]  p-0 shadow-md items-center justify-center ">
           <div className="w-full h-fit p-3 bg-emerald-600  bg-opacity-50">
-              <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'}}>Terapia Emocional</h5>
+              <h5 className="mb-2 text-xl md:text-2xl text-center font-bold tracking-tight text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)'}}>Terapia Emocional</h5>
             </div>
 
             <div className="w-full h-fit p-4 bg-gray-400 bg-opacity-50">

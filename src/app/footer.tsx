@@ -7,16 +7,16 @@ const Footer: React.FC = () => {
   return (
     
 
-<footer className=" bg-zinc-300 ">
-    <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+<footer className=" bg-zinc-300 mt-5 w-full  ">
+    <div className="mx-auto w-full max-w-screen-2xl p-4 py-6 lg:py-8">
     <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
               <a href="https://www.neurofascinante.xyz" className="flex items-center">
-                  <Image src={icons.LogoV1TransSVG} className="h-[25%] me-3 max-w-48" alt="Logo" />
+                  <Image src={icons.LogoV1TransSVG} className="h-[25%] me-3 max-w-64" alt="Logo" />
                   
               </a>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div className="flex flex-wrap gap-2 w-[70%]">
               <div>
                 <h2 className="mb-3 text-sm font-semibold text-gray-900 uppercase">Servicios</h2>
                     <ul className="text-gray-500  font-medium">
@@ -51,7 +51,8 @@ const Footer: React.FC = () => {
                   <h2 className="mb-3 text-sm font-semibold text-gray-900 uppercase ">Contactanos</h2>
                     <ul className="text-gray-500  font-medium">
                         <li className="mb-4">
-                            <p className="">Dirección: Av. Esteban Arce, a dos cuadras del cruce de villas, esq. Cervantes</p>
+                            <p className="">Dirección: Av. Esteban Arce</p>
+                            <p className="">a dos cuadras del cruce de villas, esq. Cervantes</p>
                         </li>
                         <li className="mb-4">
                             <p className="">Teléfonos: 72534205 - 64206836</p>

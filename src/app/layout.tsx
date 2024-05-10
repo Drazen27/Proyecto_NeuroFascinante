@@ -20,10 +20,10 @@ export default function RootLayout({
     <html lang="en">
       
       <body className={inter.className}>
-        <div className=" mb-36">
+        <div className="mb-36">
           <Navbar/>
         </div>
-        <div className=" h-fit">
+        <div className=" ">
           {children} 
         </div>
         

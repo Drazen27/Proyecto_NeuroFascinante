@@ -29,24 +29,40 @@ export default function About() {
           </div>
         </div>
       </section>
-        <section className="flex  justify-center h-fit">
-          <div  className="flex flex-col items-center border bg-white border-gray-200 rounded-lg shadow md:flex-row w-full mx-4 my-2">
-              <Image className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-1/2 md:rounded-none md:rounded-s-lg" src={icons.LogoV3Trans} alt=""/>
-              <div className="flex flex-col justify-between p-4 leading-normal">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Noteworthy technology acquisitions 2021</h5>
-                  <p className="mb-3 font-normal text-gray-700 ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-              </div>
+      <section className="flex flex-wrap justify-center gap-6">
+
+        <div className="max-w-[840px] rounded overflow-hidden shadow-lg">
+          <Image className="w-full" src={icons.LogoV3Trans} alt="Sunset in the mountains"/>
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+            <p className="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
           </div>
-        </section>
-        <section className="flex  justify-center h-fit">
-          <div  className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row w-full mx-4 my-2 ">
-              <div className="flex flex-col justify-between p-4 leading-normal">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Noteworthy technology acquisitions 2021</h5>
-                  <p className="mb-3 font-normal text-gray-700 ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-              </div>
-              <Image className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-1/2 md:rounded-none md:rounded-s-lg" src={icons.LogoV3Trans} alt=""/>
+          <div className="px-6 pt-4 pb-2">
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
           </div>
-        </section>
+        </div>
+        <div className="max-w-[840px] rounded overflow-hidden shadow-lg">
+          <Image className="w-full" src={icons.LogoV3Trans} alt="Sunset in the mountains"/>
+          <div className="px-6 py-4">
+            <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+            <p className="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div className="px-6 pt-4 pb-2">
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+          </div>
+        </div>
+
+      </section>
+      
+        
     </main>
   );
 }

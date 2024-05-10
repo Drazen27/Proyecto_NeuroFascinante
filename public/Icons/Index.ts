@@ -28,6 +28,14 @@ import LogoV3Morado from "./logo neuro_version3/neuro_3.7-morado.png";
 import LogoV3Naranja from "./logo neuro_version3/neuro_3.8-naranja.png";
 import LogoV3Verde from "./logo neuro_version3/neuro_3.9-verde.png";
 
+import LogoV1TransSVG from "./logo neuro_version1/neuro_1.2-color_transparencia.svg";
+import LogoV2TransSVG from "./logo neuro_version2/neuro_2.2-color_transparencia.svg";
+import LogoV3TransSVG from "./logo neuro_version3/neuro_3.2-color_transparencia.svg";
+import LogoV3TransR from "./logo neuro_version3/neuro_3.2-color_transparencia recortado.png";
+import LogoV3TransRSVG from "./logo neuro_version3/neuro_3.2-color_transparencia recortado.svg";
+
+
+
 import Fondo from "./fondo.jpg"
 
 interface Icons {
@@ -65,6 +73,12 @@ const icons: Icons = {
     LogoV3Naranja,
     LogoV3Verde,
 
+    LogoV1TransSVG,
+    LogoV2TransSVG,
+    LogoV3TransSVG,
+
+    LogoV3TransR,
+    LogoV3TransRSVG,
     Fondo,
   };
   

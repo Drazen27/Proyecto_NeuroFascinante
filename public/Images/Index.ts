@@ -17,6 +17,7 @@ import TerapiaC2 from "./Neurofascinante/Terapia conductual 2.png"
 import TerapiaE from "./Neurofascinante/Terapia emocional 1.png"
 import TerapiaE2 from "./Neurofascinante/Terapia emocional 2.png"
 
+import PerfilMiro from "./Perfil/Miroslava.png"
 interface Images {
     [key: string]: string | any;
 }
@@ -41,6 +42,7 @@ const Images: Images = {
     TerapiaE,  
     TerapiaE2,  
 
+    PerfilMiro
   };
   
   export default Images;

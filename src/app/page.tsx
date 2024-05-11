@@ -19,7 +19,7 @@ export default function Home() {
         </div>
       </section>
       
-      <section className="px-2 mt-8 flex flex-wrap justify-center gap-4">
+      <section className="px-2 mt-8 flex flex-wrap justify-center gap-8">
         <ImageCards 
         title="Terapia Niños con TDAH" 
         img="'/Images/Neurofascinante/TDAH 2.png'" 
@@ -29,7 +29,8 @@ export default function Home() {
         animationIn="animate-fadeLeft"
         animationOut="animate-fadeOutLeft"
         color="bg-sky-blue"
-        w="w-[50%]"/>
+        w="w-[50%]"
+        url="/"/>
         <ImageCards 
         title="Síndrome de Down y discapacidad" 
         img="'/Images/Neurofascinante/Down.png'" 
@@ -37,9 +38,10 @@ export default function Home() {
         xAxis="justify-start" 
         yAxis="items-start" 
         animationIn="animate-fadeTop"
-        animationOut="animate-fadeOutTop"
+        animationOut="animate-fadeOutBottom"
         color="bg-pink-panter"
-        w="w-[45%]"/>
+        w="w-[45%]"
+        url="/"/>
         <ImageCards 
         title="Dificultades académicas" 
         img="'/Images/Neurofascinante/Dificultades académicas.png'" 
@@ -49,7 +51,8 @@ export default function Home() {
         animationIn="animate-fadeRight"
         animationOut="animate-fadeOutRight"
         color="bg-light-orange"
-        w="w-[50%]"/>
+        w="w-[50%]"
+        url="/"/>
         <ImageCards 
         title="Terapia para Niños con Autismo" 
         img="'/Images/Neurofascinante/Autismo.png'" 
@@ -59,7 +62,8 @@ export default function Home() {
         animationIn="animate-fadeBottom"
         animationOut="animate-fadeOutBottom"
         color="bg-light-green"
-        w="w-[45%]"/>
+        w="w-[45%]"
+        url="/"/>
         <ImageCards 
         title="Problemas de Aprendizaje" 
         img="'/Images/Neurofascinante/Dificultades de aprendizaje 2.png'" 
@@ -69,7 +73,8 @@ export default function Home() {
         animationIn="animate-fadeRight"
         animationOut="animate-fadeOutRight"
         color="bg-dark-purple"
-        w="w-[44%]"/>
+        w="w-[44%]"
+        url="/"/>
         <ImageCards 
         title="Evaluaciones con Pruebas Psicométricas" 
         img="'/Images/Neurofascinante/Evaluacion con pruebas psicométricas.png'" 
@@ -77,9 +82,10 @@ export default function Home() {
         xAxis="justify-end" 
         yAxis="items-end" 
         animationIn="animate-fadeTop"
-        animationOut="animate-fadeOutTop"
-        color="yellow-300"
-        w="w-[43%]"/>
+        animationOut="animate-fadeOutBottom"
+        color="bg-yellow-300"
+        w="w-[43%]"
+        url="/"/>
         <ImageCards 
         title="Terapia Conductual" 
         img="'/Images/Neurofascinante/Terapia conductual 2.png'" 
@@ -87,9 +93,10 @@ export default function Home() {
         xAxis="justify-start" 
         yAxis="items-end" 
         animationIn="animate-fadeBottom"
-        animationOut="animate-fadeOutBottom"
+        animationOut="animate-fadeOutRight"
         color="bg-red-600"
-        w="w-[54%]"/>
+        w="w-[54%]"
+        url="/"/>
         <ImageCards 
         title="Terapia Emocional" 
         img="'/Images/Neurofascinante/Terapia emocional 1.png'" 
@@ -99,7 +106,8 @@ export default function Home() {
         animationIn="animate-fadeLeft"
         animationOut="animate-fadeOutLeft"
         color="bg-emerald-600"
-        w="w-[38%]"/>
+        w="w-[38%]"
+        url="/"/>
         </section>
     </main>
   );

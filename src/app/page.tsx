@@ -13,7 +13,7 @@ export default function Home() {
           Your browser does not support the video tag.
         </video>
         
-        <div className="absolute top-0 left-0 w-full h-[800px] flex flex-col items-center justify-center">
+        <div className=" absolute top-0 left-0 w-full h-[800px] flex flex-col items-center justify-center">
           <h1 className="text-sky-blue font-sans font-bold text-4xl md:text-5xl lg:text-6xl xl:text-8xl  text-center" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' }}>TERAPIA NEUROPSICOLÓGICA</h1>
           <h1 className="text-pink-panter font-sans font-bold text-4xl md:text-5xl lg:text-6xl xl:text-8xl  text-center" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.3)' }}>NEUROFASCINANTE</h1>
         </div>
@@ -26,8 +26,8 @@ export default function Home() {
         desc="Terapia especializada diseñada para mejorar la concentración, la organización y el control de los impulsos. Para un mejor rendimiento académico y social." 
         xAxis="justify-start" 
         yAxis="items-end" 
-        animationIn="animate-fadeLeft"
-        animationOut="animate-fadeOutLeft"
+        animationIn="animate-fadeIn"
+        animationOut="animate-fadeOut"
         color="bg-sky-blue"
         w="w-[50%]"
         url="/"/>
@@ -37,8 +37,8 @@ export default function Home() {
         desc="Terapia neuropsicológica basada en evidencia científica con un valor importante en niños y niñas con síndrome de Down y otras discapacidades favoreciendo su desarrollo integral" 
         xAxis="justify-start" 
         yAxis="items-start" 
-        animationIn="animate-fadeTop"
-        animationOut="animate-fadeOutBottom"
+        animationIn="animate-fadeIn"
+        animationOut="animate-fadeOut"
         color="bg-pink-panter"
         w="w-[45%]"
         url="/"/>
@@ -48,8 +48,8 @@ export default function Home() {
         desc="Apoyo educativo individualizado para superar obstáculos en el aprendizaje y maximizar el potencial académico" 
         xAxis="justify-center" 
         yAxis="items-end" 
-        animationIn="animate-fadeRight"
-        animationOut="animate-fadeOutRight"
+        animationIn="animate-fadeIn"
+        animationOut="animate-fadeOut"
         color="bg-light-orange"
         w="w-[50%]"
         url="/"/>
@@ -59,8 +59,8 @@ export default function Home() {
         desc="Terapia personalizada para niños con autismo. Con enfoque en el desarrollo de habilidades sociales, comunicativas y de comportamiento, trabajamos para promover la integración y la autonomía de cada niño" 
         xAxis="justify-start" 
         yAxis="items-start" 
-        animationIn="animate-fadeBottom"
-        animationOut="animate-fadeOutBottom"
+        animationIn="animate-fadeIn"
+        animationOut="animate-fadeOut"
         color="bg-light-green"
         w="w-[45%]"
         url="/"/>
@@ -70,8 +70,8 @@ export default function Home() {
         desc="Soluciones personalizadas para superar los obstáculos en el aprendizaje, brindando la confianza y las habilidades necesarias para el éxito académico" 
         xAxis="justify-center" 
         yAxis="items-start" 
-        animationIn="animate-fadeRight"
-        animationOut="animate-fadeOutRight"
+        animationIn="animate-fadeIn"
+        animationOut="animate-fadeOut"
         color="bg-dark-purple"
         w="w-[44%]"
         url="/"/>
@@ -81,8 +81,8 @@ export default function Home() {
         desc="Pruebas estandarizadas para evaluar diversas áreas cognitivas, emocionales o del desarrollo" 
         xAxis="justify-end" 
         yAxis="items-end" 
-        animationIn="animate-fadeTop"
-        animationOut="animate-fadeOutBottom"
+        animationIn="animate-fadeIn"
+        animationOut="animate-fadeOut"
         color="bg-yellow-300"
         w="w-[43%]"
         url="/"/>
@@ -92,8 +92,8 @@ export default function Home() {
         desc="Ayuda a identificar y modificar comportamientos problemáticos con técnicas como el refuerzo positivo, el modelado y la modificación de contingencias" 
         xAxis="justify-start" 
         yAxis="items-end" 
-        animationIn="animate-fadeBottom"
-        animationOut="animate-fadeOutRight"
+        animationIn="animate-fadeIn"
+        animationOut="animate-fadeOut"
         color="bg-red-600"
         w="w-[54%]"
         url="/"/>
@@ -103,8 +103,8 @@ export default function Home() {
         desc="Facilita el reconocimiento y la gestión de emociones, promoviendo una mayor estabilidad emocional y relaciones interpersonales más saludables" 
         xAxis="justify-start" 
         yAxis="items-start" 
-        animationIn="animate-fadeLeft"
-        animationOut="animate-fadeOutLeft"
+        animationIn="animate-fadeIn"
+        animationOut="animate-fadeOut"
         color="bg-emerald-600"
         w="w-[38%]"
         url="/"/>

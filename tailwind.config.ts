@@ -20,6 +20,60 @@ const config: Config = {
         'dark-purple': '#81549D',
         'pink-panter': '#EA5297',
       },
+      animation: {
+        fadeIn: 'fadeIn .5s ease-in-out',
+        fadeLeft: 'fadeInLeft .5s ease-in-out',
+        fadeRight: 'fadeInRight .5s ease-in-out',
+        fadeTop: 'fadeInTop .5s ease-in-out',
+        fadeBottom: 'fadeInBottom .5s ease-in-out',
+        fadeOut: 'fadeOut .5s ease-in-out', // Nueva animación fadeOut
+        fadeOutLeft: 'fadeOutLeft .5s ease-in-out', // Nueva animación fadeOutLeft
+        fadeOutRight: 'fadeOutRight .5s ease-in-out', // Nueva animación fadeOutRight
+        fadeOutTop: 'fadeOutTop .5s ease-in-out', // Nueva animación fadeOutTop
+        fadeOutBottom: 'fadeOutBottom .5s ease-in-out', // Nueva animación fadeOutBottom
+      },
+      keyframes: {
+        fadeIn: {
+          from: { opacity: '0' },
+          to: { opacity: '1' },
+        },
+        fadeInLeft: {
+          from: { opacity: '0', transform: 'translateX(-100px)' },
+          to: { opacity: '1', transform: 'translateX(0)' },
+        },
+        fadeInRight: {
+          from: { opacity: '0', transform: 'translateX(100px)' },
+          to: { opacity: '1', transform: 'translateX(0)' },
+        },
+        fadeInTop: {
+          from: { opacity: '0', transform: 'translateY(-100px)' },
+          to: { opacity: '1', transform: 'translateY(0)' },
+        },
+        fadeInBottom: {
+          from: { opacity: '0', transform: 'translateY(100px)' },
+          to: { opacity: '1', transform: 'translateY(0)' },
+        },
+        fadeOut: { // Nuevos keyframes para la animación fadeOut
+          from: { opacity: '1' },
+          to: { opacity: '0' },
+        },
+        fadeOutLeft: { // Nuevos keyframes para la animación fadeOutLeft
+          from: { opacity: '1', transform: 'translateX(0)' },
+          to: { opacity: '0', transform: 'translateX(-100px)' },
+        },
+        fadeOutRight: { // Nuevos keyframes para la animación fadeOutRight
+          from: { opacity: '1', transform: 'translateX(0)' },
+          to: { opacity: '0', transform: 'translateX(100px)' },
+        },
+        fadeOutTop: { // Nuevos keyframes para la animación fadeOutTop
+          from: { opacity: '1', transform: 'translateY(0)' },
+          to: { opacity: '0', transform: 'translateY(-100px)' },
+        },
+        fadeOutBottom: { // Nuevos keyframes para la animación fadeOutBottom
+          from: { opacity: '1', transform: 'translateY(0)' },
+          to: { opacity: '0', transform: 'translateY(100px)' },
+        },
+      },
     },
   },
   plugins: [],

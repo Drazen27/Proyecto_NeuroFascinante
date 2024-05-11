@@ -29,34 +29,44 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className="flex flex-wrap justify-center gap-6">
+      <section className="flex flex-wrap justify-center gap-6 mt-4">
 
-        <div className="max-w-[840px] rounded overflow-hidden shadow-lg">
-          <Image className="w-full" src={icons.LogoV3Trans} alt="Sunset in the mountains"/>
+        <div className="max-w-[840px] rounded overflow-hidden bg-zinc-50 shadow-xl">
+          <Image className="w-full" src={Images.PerfilMiro} alt="Sunset in the mountains"/>
           <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-            <p className="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+          <div className="font-bold text-xl mb-2">Perfil profesional</div>
+            <p className="text-gray-700 text-base text-justify">
+            Psicóloga educativa con 4 años de experiencia en el trabajo con la población infantil. Trabajando a través de un enfoque comprensivo y empático con los niños, niñas y adolescentes, he sido partícipe del camino hacia el bienestar emocional y mental de mis pacientes, así como también de su progreso a nivel educativo. Mi objetivo es proporcionar un espacio seguro y acogedor donde los niños puedan explorar sus emociones, fortalezas y desafíos, mientras trabajamos juntos para cultivar su resiliencia y desarrollo positivo.
             </p>
+            <div className="font-bold text-xl mb-1 mt-3">Estudios</div>
+            <p className="text-gray-700 text-base text-justify">
+            Licenciatura en psicología 
+            </p>
+            <div className="font-bold text-xl mb-0 mt-3">Diplomados</div>
           </div>
-          <div className="px-6 pt-4 pb-2">
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+          <div className="px-3 pt-0 pb-4">
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Educación Superior</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Gestión de talento humano</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Psicología Educativa con especialidad en dificultades específicas del aprendizaje</span>
           </div>
         </div>
-        <div className="max-w-[840px] rounded overflow-hidden shadow-lg">
-          <Image className="w-full" src={icons.LogoV3Trans} alt="Sunset in the mountains"/>
+        <div className="max-w-[840px] rounded overflow-hidden bg-zinc-50 shadow-xl">
+          <Image className="w-full" src={Images.PerfilMiro} alt="Sunset in the mountains"/>
           <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-            <p className="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+          <div className="font-bold text-xl mb-2">Perfil profesional</div>
+            <p className="text-gray-700 text-base text-justify">
+            Psicóloga educativa con 4 años de experiencia en el trabajo con la población infantil. Trabajando a través de un enfoque comprensivo y empático con los niños, niñas y adolescentes, he sido partícipe del camino hacia el bienestar emocional y mental de mis pacientes, así como también de su progreso a nivel educativo. Mi objetivo es proporcionar un espacio seguro y acogedor donde los niños puedan explorar sus emociones, fortalezas y desafíos, mientras trabajamos juntos para cultivar su resiliencia y desarrollo positivo.
             </p>
+            <div className="font-bold text-xl mb-1 mt-3">Estudios</div>
+            <p className="text-gray-700 text-base text-justify">
+            Licenciatura en psicología 
+            </p>
+            <div className="font-bold text-xl mb-0 mt-3">Diplomados</div>
           </div>
-          <div className="px-6 pt-4 pb-2">
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+          <div className="px-3 pt-0 pb-4">
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Educación Superior</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Gestión de talento humano</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Psicología Educativa con especialidad en dificultades específicas del aprendizaje</span>
           </div>
         </div>
 

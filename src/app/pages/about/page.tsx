@@ -2,16 +2,18 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import icons from '../../../../public/Icons/Index';
 import Images from '../../../../public/Images/Index'
+import MisionVisionCards from "@/app/componentes/misionvisionCards";
+import AboutCards from "@/app/componentes/aboutCard";
 export default function About() {
   return (
     <main >
-      <section className="w-full  border-gray-200 min-h-[500px] " 
+      <section className="w-full  border-gray-200 min-h-[500px] animate-fadeIn" 
       style={{backgroundImage: "url('/Images/Neurofascinante/TDAH 2.png')",
       backgroundSize: 'cover', backgroundPosition: 'center'}}>
         <div className=" bg-gray-600 bg-opacity-40 w-full h-full min-h-[500px] p-4">
           <div className="mx-4 mt-3 items-center">
             <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
-              <h1 className="text-white font-sans  text-4xl md:text-5xl lg:text-6xl  text-center">CONSLTORIO DE</h1>
+              <h1 className="text-white font-sans  text-4xl md:text-5xl lg:text-6xl  text-center">CONSULTORIO DE</h1>
               <h1 className="text-white font-sans  text-4xl md:text-5xl lg:text-6xl text-center">TERAPIA NEUROPSICOLÓGICA</h1>
             </span>
             </div>
@@ -29,47 +31,42 @@ export default function About() {
           </div>
         </div>
       </section>
+      <section className="flex flex-wrap justify-center gap-0 my-8 mx-6">
+        <MisionVisionCards
+        title="Misión"
+        desc='"En Neuro Fascinante, nuestra misión es proporcionar servicios psicológicos especializados que promuevan el bienestar integral de niños, adolescentes y sus familias. Nos comprometemos a ofrecer un enfoque basado en evidencias científicas, combinado con una atención cálida y empática, para abordar las necesidades emocionales, cognitivas y sociales de nuestros clientes. Buscamos ser un faro de apoyo y guía, trabajando en colaboración con las familias para fomentar el crecimiento, la resiliencia y la inclusión en todas las etapas del desarrollo. Con un compromiso firme con la excelencia clínica y el avance de la investigación en psicología infantil, estamos dedicados a ser líderes en nuestro campo y a proporcionar el más alto nivel de cuidado y apoyo a aquellos que confían en nosotros para su bienestar emocional y mental."'
+        color="bg-light-green"
+        animationIn="animate-fadeTop"
+        animationOut="animate-fadeOutBottom"
+        thres={0.1}
+        />
+
+        <MisionVisionCards
+        title="Visión"
+        desc='"En Neuro Fascinante nos esforzamos por ser mucho más que un consultorio de psicología. Somos un espacio acogedor y empático, donde cada niño, junto a su familia se sienta valorado, comprendido, y apoyado en su viaje hacia el bienestar emocional y éxito académico. Nuestra meta es crear un ambiente cálido, seguro y amigable donde todos se sientan bienvenidos, puedan compartir sus preocupaciones y desafíos sin temor al juicio. Así encontraran las herramientas y el apoyo necesario para crecer, prosperar y cultivar la resiliencia. Estamos aquí para acompañarlos en cada paso hacia una vida más plena y satisfactoria."'
+        color="bg-dark-purple"
+        animationIn="animate-fadeBottom"
+        animationOut="animate-fadeOutTop"
+        thres={0.1}
+        />
+      </section>
       <section className="flex flex-wrap justify-center gap-6 mt-4">
-
-        <div className="max-w-[840px] rounded overflow-hidden bg-zinc-50 shadow-xl">
-          <Image className="w-full" src={Images.PerfilMiro} alt="Sunset in the mountains"/>
-          <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2">Perfil profesional</div>
-            <p className="text-gray-700 text-base text-justify">
-            Psicóloga educativa con 4 años de experiencia en el trabajo con la población infantil. Trabajando a través de un enfoque comprensivo y empático con los niños, niñas y adolescentes, he sido partícipe del camino hacia el bienestar emocional y mental de mis pacientes, así como también de su progreso a nivel educativo. Mi objetivo es proporcionar un espacio seguro y acogedor donde los niños puedan explorar sus emociones, fortalezas y desafíos, mientras trabajamos juntos para cultivar su resiliencia y desarrollo positivo.
-            </p>
-            <div className="font-bold text-xl mb-1 mt-3">Estudios</div>
-            <p className="text-gray-700 text-base text-justify">
-            Licenciatura en psicología 
-            </p>
-            <div className="font-bold text-xl mb-0 mt-3">Diplomados</div>
-          </div>
-          <div className="px-3 pt-0 pb-4">
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Educación Superior</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Gestión de talento humano</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Psicología Educativa con especialidad en dificultades específicas del aprendizaje</span>
-          </div>
-        </div>
-        <div className="max-w-[840px] rounded overflow-hidden bg-zinc-50 shadow-xl">
-          <Image className="w-full" src={Images.PerfilMiro} alt="Sunset in the mountains"/>
-          <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2">Perfil profesional</div>
-            <p className="text-gray-700 text-base text-justify">
-            Psicóloga educativa con 4 años de experiencia en el trabajo con la población infantil. Trabajando a través de un enfoque comprensivo y empático con los niños, niñas y adolescentes, he sido partícipe del camino hacia el bienestar emocional y mental de mis pacientes, así como también de su progreso a nivel educativo. Mi objetivo es proporcionar un espacio seguro y acogedor donde los niños puedan explorar sus emociones, fortalezas y desafíos, mientras trabajamos juntos para cultivar su resiliencia y desarrollo positivo.
-            </p>
-            <div className="font-bold text-xl mb-1 mt-3">Estudios</div>
-            <p className="text-gray-700 text-base text-justify">
-            Licenciatura en psicología 
-            </p>
-            <div className="font-bold text-xl mb-0 mt-3">Diplomados</div>
-          </div>
-          <div className="px-3 pt-0 pb-4">
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Educación Superior</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Gestión de talento humano</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Psicología Educativa con especialidad en dificultades específicas del aprendizaje</span>
-          </div>
-        </div>
-
+      <AboutCards 
+      img={Images.PerfilMiro}
+      descPerfil="Psicóloga educativa con 4 años de experiencia en el trabajo con la población infantil. Trabajando a través de un enfoque comprensivo y empático con los niños, niñas y adolescentes, he sido partícipe del camino hacia el bienestar emocional y mental de mis pacientes, así como también de su progreso a nivel educativo. Mi objetivo es proporcionar un espacio seguro y acogedor donde los niños puedan explorar sus emociones, fortalezas y desafíos, mientras trabajamos juntos para cultivar su resiliencia y desarrollo positivo."
+      descEstudios="Licenciatura en psicología"
+      diplomados={["Educación Superior","Gestión de talento humano","Psicología Educativa con especialidad en dificultades específicas del aprendizaje"]}
+      animationIn="animate-fadeLeft"
+      animationOut="animate-fadeOutLeft"
+      tresh={0.1}/>
+      <AboutCards 
+      img={Images.PerfilCamila}
+      descPerfil="Soy psicóloga comprometida con el bienestar emocional y el desarrollo integral de niños, niñas y familias. Mi enfoque se centra en proporcionar un ambiente de apoyo y comprensión donde mis pacientes puedan prosperar. Me mantengo en constante aprendizaje, explorando nuevas formas de abordar las necesidades individuales a través de una comprensión profunda de la neurociencia. Utilizo intervenciones personalizadas y colaborativas para ayudar a mis pacientes a superar obstáculos, desde dificultades de aprendizaje hasta trastornos del comportamiento. Mi compromiso con la mejora continua se refleja en mi dedicación a mantenerme actualizada con los últimos avances en investigación y en colaborar con otros profesionales para ofrecer el mejor apoyo posible a quienes atiendo."
+      descEstudios="Licenciatura en psicología"
+      diplomados={["Estudiando educación diferencial","Neuroeducación","Neurociencia","Mindfulness"]}
+      animationIn="animate-fadeLeft"
+      animationOut="animate-fadeOutLeft"
+      tresh={0.1}/>
       </section>
       
         

@@ -4,7 +4,9 @@ import "./globals.css";
 import Navbar from "./navbar";
 import Footer from "./footer";
 
+
 const inter = Inter({ subsets: ["latin"] });
+      
 
 export const metadata: Metadata = {
   title: "Neurofascinanate",

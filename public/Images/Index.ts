@@ -18,6 +18,11 @@ import TerapiaE from "./Neurofascinante/Terapia emocional 1.png"
 import TerapiaE2 from "./Neurofascinante/Terapia emocional 2.png"
 
 import PerfilMiro from "./Perfil/Miroslava.png"
+import PerfilCamila from "./Perfil/Camila.jpg"
+
+import QrMiro from "./QR/WhatsAppMiro.png"
+import QrCamila from "./QR/WhatsApp Camila.png"
+import QrUbi from "./QR/UbicacionQr.jpg"
 interface Images {
     [key: string]: string | any;
 }
@@ -42,7 +47,12 @@ const Images: Images = {
     TerapiaE,  
     TerapiaE2,  
 
-    PerfilMiro
+    PerfilMiro,
+    PerfilCamila,
+
+    QrMiro,
+    QrCamila,
+    QrUbi
   };
   
   export default Images;

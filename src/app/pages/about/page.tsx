@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import icons from '../../../../public/Icons/Index';
 import Images from '../../../../public/Images/Index'
 import MisionVisionCards from "@/app/componentes/misionvisionCards";
+import AboutCards from "@/app/componentes/aboutCard";
 export default function About() {
   return (
     <main >
@@ -50,46 +51,22 @@ export default function About() {
         />
       </section>
       <section className="flex flex-wrap justify-center gap-6 mt-4">
-
-        <div className="max-w-[840px] rounded overflow-hidden bg-zinc-50 shadow-xl">
-          <Image className="w-full" src={Images.PerfilMiro} alt="Sunset in the mountains"/>
-          <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2">Perfil profesional</div>
-            <p className="text-gray-700 text-base text-justify">
-            Psicóloga educativa con 4 años de experiencia en el trabajo con la población infantil. Trabajando a través de un enfoque comprensivo y empático con los niños, niñas y adolescentes, he sido partícipe del camino hacia el bienestar emocional y mental de mis pacientes, así como también de su progreso a nivel educativo. Mi objetivo es proporcionar un espacio seguro y acogedor donde los niños puedan explorar sus emociones, fortalezas y desafíos, mientras trabajamos juntos para cultivar su resiliencia y desarrollo positivo.
-            </p>
-            <div className="font-bold text-xl mb-1 mt-3">Estudios</div>
-            <p className="text-gray-700 text-base text-justify">
-            Licenciatura en psicología 
-            </p>
-            <div className="font-bold text-xl mb-0 mt-3">Diplomados</div>
-          </div>
-          <div className="px-3 pt-0 pb-4">
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Educación Superior</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Gestión de talento humano</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Psicología Educativa con especialidad en dificultades específicas del aprendizaje</span>
-          </div>
-        </div>
-        <div className="max-w-[840px] rounded overflow-hidden bg-zinc-50 shadow-xl">
-          <Image className="w-full" src={Images.PerfilMiro} alt="Sunset in the mountains"/>
-          <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2">Perfil profesional</div>
-            <p className="text-gray-700 text-base text-justify">
-            Psicóloga educativa con 4 años de experiencia en el trabajo con la población infantil. Trabajando a través de un enfoque comprensivo y empático con los niños, niñas y adolescentes, he sido partícipe del camino hacia el bienestar emocional y mental de mis pacientes, así como también de su progreso a nivel educativo. Mi objetivo es proporcionar un espacio seguro y acogedor donde los niños puedan explorar sus emociones, fortalezas y desafíos, mientras trabajamos juntos para cultivar su resiliencia y desarrollo positivo.
-            </p>
-            <div className="font-bold text-xl mb-1 mt-3">Estudios</div>
-            <p className="text-gray-700 text-base text-justify">
-            Licenciatura en psicología 
-            </p>
-            <div className="font-bold text-xl mb-0 mt-3">Diplomados</div>
-          </div>
-          <div className="px-3 pt-0 pb-4">
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Educación Superior</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Gestión de talento humano</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Psicología Educativa con especialidad en dificultades específicas del aprendizaje</span>
-          </div>
-        </div>
-
+      <AboutCards 
+      img={Images.PerfilMiro}
+      descPerfil="Psicóloga educativa con 4 años de experiencia en el trabajo con la población infantil. Trabajando a través de un enfoque comprensivo y empático con los niños, niñas y adolescentes, he sido partícipe del camino hacia el bienestar emocional y mental de mis pacientes, así como también de su progreso a nivel educativo. Mi objetivo es proporcionar un espacio seguro y acogedor donde los niños puedan explorar sus emociones, fortalezas y desafíos, mientras trabajamos juntos para cultivar su resiliencia y desarrollo positivo."
+      descEstudios="Licenciatura en psicología"
+      diplomados={["Educación Superior","Gestión de talento humano","Psicología Educativa con especialidad en dificultades específicas del aprendizaje"]}
+      animationIn="animate-fadeLeft"
+      animationOut="animate-fadeOutLeft"
+      tresh={0.1}/>
+      <AboutCards 
+      img={Images.PerfilCamila}
+      descPerfil="Soy psicóloga comprometida con el bienestar emocional y el desarrollo integral de niños, niñas y familias. Mi enfoque se centra en proporcionar un ambiente de apoyo y comprensión donde mis pacientes puedan prosperar. Me mantengo en constante aprendizaje, explorando nuevas formas de abordar las necesidades individuales a través de una comprensión profunda de la neurociencia. Utilizo intervenciones personalizadas y colaborativas para ayudar a mis pacientes a superar obstáculos, desde dificultades de aprendizaje hasta trastornos del comportamiento. Mi compromiso con la mejora continua se refleja en mi dedicación a mantenerme actualizada con los últimos avances en investigación y en colaborar con otros profesionales para ofrecer el mejor apoyo posible a quienes atiendo."
+      descEstudios="Licenciatura en psicología"
+      diplomados={["Estudiando educación diferencial","Neuroeducación","Neurociencia","Mindfulness"]}
+      animationIn="animate-fadeLeft"
+      animationOut="animate-fadeOutLeft"
+      tresh={0.1}/>
       </section>
       
         

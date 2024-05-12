@@ -8,10 +8,12 @@ export default function Contact() {
   return (
     
     <main className="flex flex-wrap justify-center">
-        <div className="xl:w-[50%] w-full flex flex-col">
-            <div className="w-full flex flex-col items-center">
-                <p className=" text-center text-black font-sans font-bold  text-xl md:text-2xl lg:text-3xl xl:text-4xl  mt-[40px] ml-[15%]">¡Estamos aquí para ayudarte en cualquier momento del día! Disponibles para atender tus consultas y necesidades</p>
-                <p className=" text-center text-black font-sans font-bold text-xl md:text-2xl lg:text-3xl xl:text-4xl  mb-[40px] ml-[15%]">Comunicate con nosostros por nuestras Redes Sociales</p>
+        <div className="xl:w-[50%] w-full flex flex-col ">
+            <div className="w-full flex flex-col items-center justify-center">
+                <p className=" text-center text-dark-purple font-sans font-bold  text-xl md:text-2xl lg:text-3xl xl:text-4xl  mt-[40px] ">¡Estamos aquí para ayudarte en cualquier momento del día!</p>
+                <p className=" text-center text-light-green font-sans font-bold  text-xl md:text-2xl lg:text-3xl xl:text-4xl  mt-3 ">Disponibles para atender tus consultas y necesidades</p>
+                <p className=" text-center text-light-orange font-sans font-bold text-xl md:text-2xl lg:text-3xl xl:text-4xl   mt-3 ">Comunicate con nosostros hablandonos directamente al celular o correo electronico</p>
+                <p className=" text-center text-sky-blue font-sans font-bold text-xl md:text-2xl lg:text-3xl xl:text-4xl  mb-[40px] ">Tambien puedes utilizar nuestras redes sociales como Faceebook o Instragram</p>
             </div>
             <div className="w-full flex items-center">
                 <p className=" text-center text-black font-sans font-bold text-xl md:text-2xl lg:text-3xl xl:text-4xl  my-[15px] ml-[15%]">Dirección</p>
@@ -35,11 +37,11 @@ export default function Contact() {
             <div  className='flex flex-wrap items-center justify-center gap-8 px-[5%] mt-4'>
                 <div className="flex flex-col items-center">
                     <Image src={Images.QrMiro} alt="Sunset in the mountains" className="w-96" /> 
-                    <a href="https://wa.me/qr/Y5TKS4I2VQHVI1" className="text-center text-black font-sans  text-md md:text-lg lg:text-xl xl:text-2xl mb-2 mt-4"> <span className=" font-bold">Cel:</span> <span className=" hover:text-sky-blue">72534205</span></a>
+                    <a href=" https://wa.me/qr/Y5TKS4I2VQHVI1" className="text-center text-black font-sans  text-lg md:text-xl lg:text-2xl xl:text-3xl mb-2 mt-4"> <span className=" font-bold">Cel:</span> <span className="hover:underline hover:text-sky-blue">72534205</span></a>
                 </div>
                 <div className="flex flex-col items-center">
                     <Image src={Images.QrCamila} alt="Sunset in the mountains" className="w-96" />
-                    <a href="https://wa.me/message/ANV5MJ3GWYSCP1" className="text-center text-black font-sans  text-md md:text-lg lg:text-xl xl:text-2xl mb-2 mt-4 "><span className=" font-bold">Cel:</span> <span className=" hover:text-sky-blue">64206836</span></a>
+                    <a href="https://wa.me/message/ANV5MJ3GWYSCP1" className="text-center text-black font-sans  text-lg md:text-xl lg:text-2xl xl:text-3xl mb-2 mt-4 "><span className=" font-bold">Cel:</span> <span className="hover:underline hover:text-sky-blue">64206836</span></a>
                 </div>
             </div>
             <div className="w-full flex items-center ">
@@ -50,13 +52,13 @@ export default function Contact() {
                     <a href="https://www.facebook.com/profile.php?id=61559023073881&mibextid=kFxxJD">
                         <Image src={icons.FacebookLogo} alt="Sunset in the mountains" className="w-96  hover:opacity-80"/>
                     </a>
-                    <a href="https://www.facebook.com/profile.php?id=61559023073881&mibextid=kFxxJD" className="text-center text-black font-sans  text-md md:text-lg lg:text-xl xl:text-2xl mb-2 mt-4"><span className="font-bold hover:text-sky-blue">Facebook</span></a>
+                    <a href="https://www.facebook.com/profile.php?id=61559023073881&mibextid=kFxxJD" className="text-center text-black font-sans  text-md md:text-lg lg:text-xl xl:text-2xl mb-2 mt-4"><span className="font-bold hover:underline hover:text-sky-blue">Facebook</span></a>
                 </div>
                 <div className="flex flex-col items-center">
-                    <a href="https://www.instagram.com/neurofascinante?igsh=MXF6ejd6ODhudW83ag==">
+                    <a href="https://www.instagram.com/neurofascinante?igsh=M2V0dnVmOWt6Mm90">
                     <Image src={icons.InstagramLogo} alt="Sunset in the mountains" className="w-96 hover:opacity-80" />
                     </a>
-                    <a href="https://www.instagram.com/neurofascinante?igsh=MXF6ejd6ODhudW83ag==" className="text-center text-black font-sans  text-md md:text-lg lg:text-xl xl:text-2xl mb-2 mt-4 "><span className=" font-bold hover:text-sky-blue">Instagram</span></a>
+                    <a href="https://www.instagram.com/neurofascinante?igsh=M2V0dnVmOWt6Mm90" className="text-center text-black font-sans  text-md md:text-lg lg:text-xl xl:text-2xl mb-2 mt-4 "><span className=" font-bold hover:underline hover:text-sky-blue">Instagram</span></a>
                 </div>
             </div>
             

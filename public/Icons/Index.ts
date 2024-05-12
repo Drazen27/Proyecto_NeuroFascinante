@@ -34,7 +34,8 @@ import LogoV3TransSVG from "./logo neuro_version3/neuro_3.2-color_transparencia.
 import LogoV3TransR from "./logo neuro_version3/neuro_3.2-color_transparencia recortado.png";
 import LogoV3TransRSVG from "./logo neuro_version3/neuro_3.2-color_transparencia recortado.svg";
 
-
+import FacebookLogo from "./logos otros/Facebook_logo.svg"
+import InstagramLogo from "./logos otros/Instagram_logo.svg"
 
 import Fondo from "./fondo.jpg"
 
@@ -80,6 +81,8 @@ const icons: Icons = {
     LogoV3TransR,
     LogoV3TransRSVG,
     Fondo,
+    FacebookLogo,
+    InstagramLogo
   };
   
   export default icons;

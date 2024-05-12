@@ -42,7 +42,7 @@ const ImageCards: FC<ImageCardsProps> = ({
     }, [inView]);
 
     return (
-        <Link href={url} className='transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 duration-100'>
+        <Link href={url} className=' nv:transition nv:ease-in-out nv:delay-100 nv:hover:-translate-y-1 nv:hover:scale-110 nv:duration-100'>
             <div
                 ref={ref}
                 className={`flex ${yAxis} ${xAxis} min-h-[400px] max-w-[600px] ${isVisible ? animationIn : animationOut}`}

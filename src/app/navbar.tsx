@@ -54,7 +54,9 @@ const NavBar: React.FC = () => {
           <div className=" h-full mx-[2%] flex justify-between items-center">
             <div className="flex h-full">
               <div className={`${isScrolled ? 'w-48' : 'w-52'} flex items-center  h-fill`}>
-                <Image className='h-[75%] ' src={icons.LogoV3TransRSVG} alt="LogoV3Trans" />
+                <Link className='h-[75%]' href={"/"}>
+                  <Image className='h-[100%] hover:opacity-80' src={icons.LogoV3TransRSVG} alt="LogoV3Trans" />
+                </Link>
               </div>
             </div>
             {windowWidth <= 952? 
@@ -79,7 +81,7 @@ const NavBar: React.FC = () => {
                   <Link href="/pages/offer" className="text-dark-purple hover:text-pink-panter block px-4 py-2 text-sm" role="menuitem" tabIndex={-1} id="menu-item-2" onClick={handleScreen}>¿Qué ofrecemos?</Link>
                 </div>
                 <div className="py-1" role="none">
-                  <Link href="/pages/contact" className="text-dark-purple hover:text-pink-panter block px-4 py-2 text-sm" role="menuitem" tabIndex={-1} id="menu-item-3" onClick={handleScreen}>Contactanos</Link>
+                  <Link href="/pages/contact" className="text-dark-purple hover:text-pink-panter block px-4 py-2 text-sm" role="menuitem" tabIndex={-1} id="menu-item-3" onClick={handleScreen}>Contacto</Link>
                 </div>
             </div>
             :
@@ -107,7 +109,7 @@ const NavBar: React.FC = () => {
             </li>
             <li>
               <Link href="/pages/contact">
-                <div className={`text-dark-purple font-bold hover:text-pink-panter ${isScrolled ? 'text-xl' : 'text-[22px]/[26px]'}`} style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)' }}>Contactanos</div>
+                <div className={`text-dark-purple font-bold hover:text-pink-panter ${isScrolled ? 'text-xl' : 'text-[22px]/[26px]'}`} style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2)' }}>Contacto</div>
               </Link>
             </li>
           </ul>

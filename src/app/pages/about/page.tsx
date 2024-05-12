@@ -2,16 +2,17 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import icons from '../../../../public/Icons/Index';
 import Images from '../../../../public/Images/Index'
+import MisionVisionCards from "@/app/componentes/misionvisionCards";
 export default function About() {
   return (
     <main >
-      <section className="w-full  border-gray-200 min-h-[500px] " 
+      <section className="w-full  border-gray-200 min-h-[500px] animate-fadeIn" 
       style={{backgroundImage: "url('/Images/Neurofascinante/TDAH 2.png')",
       backgroundSize: 'cover', backgroundPosition: 'center'}}>
         <div className=" bg-gray-600 bg-opacity-40 w-full h-full min-h-[500px] p-4">
           <div className="mx-4 mt-3 items-center">
             <span style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
-              <h1 className="text-white font-sans  text-4xl md:text-5xl lg:text-6xl  text-center">CONSLTORIO DE</h1>
+              <h1 className="text-white font-sans  text-4xl md:text-5xl lg:text-6xl  text-center">CONSULTORIO DE</h1>
               <h1 className="text-white font-sans  text-4xl md:text-5xl lg:text-6xl text-center">TERAPIA NEUROPSICOLÓGICA</h1>
             </span>
             </div>
@@ -28,6 +29,25 @@ export default function About() {
               </p>
           </div>
         </div>
+      </section>
+      <section className="flex flex-wrap justify-center gap-0 my-8 mx-6">
+        <MisionVisionCards
+        title="Misión"
+        desc='"En Neuro Fascinante, nuestra misión es proporcionar servicios psicológicos especializados que promuevan el bienestar integral de niños, adolescentes y sus familias. Nos comprometemos a ofrecer un enfoque basado en evidencias científicas, combinado con una atención cálida y empática, para abordar las necesidades emocionales, cognitivas y sociales de nuestros clientes. Buscamos ser un faro de apoyo y guía, trabajando en colaboración con las familias para fomentar el crecimiento, la resiliencia y la inclusión en todas las etapas del desarrollo. Con un compromiso firme con la excelencia clínica y el avance de la investigación en psicología infantil, estamos dedicados a ser líderes en nuestro campo y a proporcionar el más alto nivel de cuidado y apoyo a aquellos que confían en nosotros para su bienestar emocional y mental."'
+        color="bg-light-green"
+        animationIn="animate-fadeTop"
+        animationOut="animate-fadeOutBottom"
+        thres={0.1}
+        />
+
+        <MisionVisionCards
+        title="Visión"
+        desc='"En Neuro Fascinante nos esforzamos por ser mucho más que un consultorio de psicología. Somos un espacio acogedor y empático, donde cada niño, junto a su familia se sienta valorado, comprendido, y apoyado en su viaje hacia el bienestar emocional y éxito académico. Nuestra meta es crear un ambiente cálido, seguro y amigable donde todos se sientan bienvenidos, puedan compartir sus preocupaciones y desafíos sin temor al juicio. Así encontraran las herramientas y el apoyo necesario para crecer, prosperar y cultivar la resiliencia. Estamos aquí para acompañarlos en cada paso hacia una vida más plena y satisfactoria."'
+        color="bg-dark-purple"
+        animationIn="animate-fadeBottom"
+        animationOut="animate-fadeOutTop"
+        thres={0.1}
+        />
       </section>
       <section className="flex flex-wrap justify-center gap-6 mt-4">
 

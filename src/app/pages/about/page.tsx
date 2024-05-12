@@ -38,7 +38,7 @@ export default function About() {
         color="bg-light-green"
         animationIn="animate-fadeTop"
         animationOut="animate-fadeOutBottom"
-        thres={0.1}
+        thres={0.05}
         />
 
         <MisionVisionCards
@@ -47,7 +47,7 @@ export default function About() {
         color="bg-dark-purple"
         animationIn="animate-fadeBottom"
         animationOut="animate-fadeOutTop"
-        thres={0.1}
+        thres={0.05}
         />
       </section>
       <section className="flex flex-wrap justify-center gap-6 mt-4">
@@ -58,7 +58,7 @@ export default function About() {
       diplomados={["Educación Superior","Gestión de talento humano","Psicología Educativa con especialidad en dificultades específicas del aprendizaje"]}
       animationIn="animate-fadeLeft"
       animationOut="animate-fadeOutLeft"
-      tresh={0.1}/>
+      tresh={0.05}/>
       <AboutCards 
       img={Images.PerfilCamila}
       descPerfil="Soy psicóloga comprometida con el bienestar emocional y el desarrollo integral de niños, niñas y familias. Mi enfoque se centra en proporcionar un ambiente de apoyo y comprensión donde mis pacientes puedan prosperar. Me mantengo en constante aprendizaje, explorando nuevas formas de abordar las necesidades individuales a través de una comprensión profunda de la neurociencia. Utilizo intervenciones personalizadas y colaborativas para ayudar a mis pacientes a superar obstáculos, desde dificultades de aprendizaje hasta trastornos del comportamiento. Mi compromiso con la mejora continua se refleja en mi dedicación a mantenerme actualizada con los últimos avances en investigación y en colaborar con otros profesionales para ofrecer el mejor apoyo posible a quienes atiendo."
@@ -66,7 +66,7 @@ export default function About() {
       diplomados={["Estudiando educación diferencial","Neuroeducación","Neurociencia","Mindfulness"]}
       animationIn="animate-fadeLeft"
       animationOut="animate-fadeOutLeft"
-      tresh={0.1}/>
+      tresh={0.05}/>
       </section>
       
         

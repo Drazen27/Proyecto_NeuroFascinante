@@ -42,7 +42,7 @@ const NavBar: React.FC = () => {
   return (
       <nav className={` bg-white fixed px-8   w-full top-0 z-10 transition-all duration-300 shadow-md ${isScrolled ? ' h-28' : 'h-36'}`} 
       style={{
-        backgroundImage: "url('/Icons/fondo.jpg')",
+        backgroundImage: "url('https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/icons%2Ffondo.png?alt=media&token=92ec4720-7ac1-4664-9a28-e2cb20ddb2b7')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         

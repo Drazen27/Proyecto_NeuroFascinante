@@ -1,14 +1,12 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import icons from '../../../../public/Icons/Index';
-import Images from '../../../../public/Images/Index'
 import MisionVisionCards from "@/app/componentes/misionvisionCards";
 import AboutCards from "@/app/componentes/aboutCard";
 export default function About() {
   return (
     <main >
       <section className="w-full  border-gray-200 min-h-[500px] animate-fadeIn" 
-      style={{backgroundImage: "url('https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FTDAH%202.png?alt=media&token=5e49f78e-b448-47ec-b1cf-5b73cc0ceb93')",
+      style={{backgroundImage: "url('https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FTDAH%202.png?alt=media&token=df52a79b-1fd4-4ce0-8db3-998e791eb03f')",
       backgroundSize: 'cover', backgroundPosition: 'center'}}>
         <div className=" bg-gray-600 bg-opacity-40 w-full h-full min-h-[500px] p-4">
           <div className="mx-4 mt-3 items-center">

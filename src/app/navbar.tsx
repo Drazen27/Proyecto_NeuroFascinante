@@ -55,7 +55,7 @@ const NavBar: React.FC = () => {
             <div className="flex h-full">
               <div className={`${isScrolled ? 'w-48' : 'w-52'} flex items-center  h-fill`}>
                 <Link className='h-[75%]' href={"/"}>
-                  <Image className='h-[100%] hover:opacity-80' src={icons.LogoV3TransRSVG} alt="LogoV3Trans" />
+                  <img className='h-[100%] hover:opacity-80' src='https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/icons%2FlogoV3%2Fneuro_3.2-color_transparencia%20recortado.svg?alt=media&token=4ad43df5-38b7-4336-bfe0-60bdd1b81baf' alt="LogoV3Trans" />
                 </Link>
               </div>
             </div>

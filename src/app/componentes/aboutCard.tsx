@@ -38,7 +38,7 @@ const AboutCards: FC<AboutCardsProps> = ({
     return (
         <div ref={ref} className={`max-w-[840px] rounded overflow-hidden bg-zinc-50 shadow-xl ${isVisible ? animationIn : animationOut}`}
              style={{opacity: isVisible ? '1' : '0'}}>
-            <Image className="w-full" src={img} alt="Sunset in the mountains"/>
+            <img className="w-full" src={img} alt="Sunset in the mountains"/>
             <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">Perfil profesional</div>
                 <p className="text-gray-700 text-base text-justify">

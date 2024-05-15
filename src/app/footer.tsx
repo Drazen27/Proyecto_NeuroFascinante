@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import icons from '../../public/Icons/Index';
 
 const Footer: React.FC = () => {
   return (

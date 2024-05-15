@@ -1,7 +1,5 @@
 'use client'
 import Image from "next/image";
-import icons from '../../public/Icons/Index';
-import Images from "../../public/Images/Index";
 import ImageCards from "./componentes/imageCards";
 
 export default function Home() {
@@ -22,7 +20,7 @@ export default function Home() {
       <section className="px-2 mt-8 flex flex-wrap justify-center gap-8">
         <ImageCards 
         title="Terapia Niños con TDAH" 
-        img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FTDAH%202.png?alt=media&token=5e49f78e-b448-47ec-b1cf-5b73cc0ceb93'" 
+        img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FTDAH.png?alt=media&token=ae74731a-5bd3-412f-9dad-96995b84ec4d'" 
         desc="Terapia especializada diseñada para mejorar la concentración, la organización y el control de los impulsos. Para un mejor rendimiento académico y social." 
         xAxis="justify-start" 
         yAxis="items-end" 
@@ -33,7 +31,7 @@ export default function Home() {
         url="/"/>
         <ImageCards 
         title="Síndrome de Down y discapacidad" 
-        img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FDown.png?alt=media&token=cdff93f8-ec39-48e0-9b30-16e970e22259'" 
+        img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FDown.png?alt=media&token=dc7628aa-8c50-4985-8ef0-7a62e712ab0c'" 
         desc="Terapia neuropsicológica basada en evidencia científica con un valor importante en niños y niñas con síndrome de Down y otras discapacidades favoreciendo su desarrollo integral" 
         xAxis="justify-start" 
         yAxis="items-start" 
@@ -44,7 +42,7 @@ export default function Home() {
         url="/"/>
         <ImageCards 
         title="Dificultades académicas" 
-        img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FDIficultades%20de%20aprendizaje.png?alt=media&token=37fa7fea-0375-4221-a892-1c4786f63fd3'" 
+        img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FDificultades%20acad%C3%A9micas.png?alt=media&token=02f4eeff-5575-4bf2-a41d-fd181e0ac770'" 
         desc="Apoyo educativo individualizado para superar obstáculos en el aprendizaje y maximizar el potencial académico" 
         xAxis="justify-center" 
         yAxis="items-end" 
@@ -55,7 +53,7 @@ export default function Home() {
         url="/"/>
         <ImageCards 
         title="Terapia para Niños con Autismo" 
-        img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FAutismo.png?alt=media&token=ca5bb9e4-e076-4145-aaf0-5beb92f129cc'" 
+        img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FAutismo.png?alt=media&token=4decb999-664c-4644-b8af-54468d69a6c5'" 
         desc="Terapia personalizada para niños con autismo. Con enfoque en el desarrollo de habilidades sociales, comunicativas y de comportamiento, trabajamos para promover la integración y la autonomía de cada niño" 
         xAxis="justify-start" 
         yAxis="items-start" 
@@ -66,7 +64,7 @@ export default function Home() {
         url="/"/>
         <ImageCards 
         title="Problemas de Aprendizaje" 
-        img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FDificultades%20de%20aprendizaje%202.png?alt=media&token=872881e4-8ef8-4d7b-98b5-8d4336f3accc'" 
+        img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FDificultades%20de%20aprendizaje%202.png?alt=media&token=3ab8b429-b2ad-40d3-80c3-d3fcb9eae5ac'" 
         desc="Soluciones personalizadas para superar los obstáculos en el aprendizaje, brindando la confianza y las habilidades necesarias para el éxito académico" 
         xAxis="justify-center" 
         yAxis="items-start" 
@@ -77,7 +75,7 @@ export default function Home() {
         url="/"/>
         <ImageCards 
         title="Evaluaciones con Pruebas Psicométricas" 
-        img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FEvaluacion%20con%20pruebas%20psicom%C3%A9tricas.png?alt=media&token=ac1e7757-4dcb-4e3e-89be-e967f66c0524'" 
+        img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FEvaluacion%20con%20pruebas%20psicom%C3%A9tricas.png?alt=media&token=e46ad480-02a3-4f9b-8584-137c9165d5df'" 
         desc="Pruebas estandarizadas para evaluar diversas áreas cognitivas, emocionales o del desarrollo" 
         xAxis="justify-end" 
         yAxis="items-end" 
@@ -88,7 +86,7 @@ export default function Home() {
         url="/"/>
         <ImageCards 
         title="Terapia Conductual" 
-        img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FTerapia%20conductual%202.png?alt=media&token=0704237c-672b-4c70-83c3-28598dae2636'" 
+        img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FTerapia%20conductual%202.png?alt=media&token=ec0e9416-1708-4493-b36b-3e46b27a3205'" 
         desc="Ayuda a identificar y modificar comportamientos problemáticos con técnicas como el refuerzo positivo, el modelado y la modificación de contingencias" 
         xAxis="justify-start" 
         yAxis="items-end" 
@@ -99,7 +97,7 @@ export default function Home() {
         url="/"/>
         <ImageCards 
         title="Terapia Emocional" 
-        img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FTerapia%20emocional%201.png?alt=media&token=89bd137d-3375-4193-b516-17572d9458f1'" 
+        img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FTerapia%20emocional%201.png?alt=media&token=049904eb-0333-45b1-8f77-ef99ddc16074'" 
         desc="Facilita el reconocimiento y la gestión de emociones, promoviendo una mayor estabilidad emocional y relaciones interpersonales más saludables" 
         xAxis="justify-start" 
         yAxis="items-start" 

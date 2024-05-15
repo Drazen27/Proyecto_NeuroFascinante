@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
     <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
               <a href="https://www.neurofascinante.xyz" className="flex items-center">
-                  <Image src={icons.LogoV1TransSVG} className="h-[25%] me-3 max-w-64" alt="Logo" />
+                  <img src="https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/icons%2FlogoV1%2Fneuro_1.2-color_transparencia.svg?alt=media&token=44e43e2c-bc9c-48f2-883f-6d3640b49b6b" className="h-[25%] me-3 max-w-64" alt="Logo" />
                   
               </a>
           </div>
@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
           <div className="flex mt-4 sm:justify-center sm:mt-0">
               <a href="https://www.facebook.com/profile.php?id=61559023073881&mibextid=kFxxJD" className="text-gray-500 hover:text-gray-900 ">
                   <svg className="w-7 h-7" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
-                        <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
+                        <path fillRule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clipRule="evenodd"/>
                     </svg>
                   <span className="sr-only">Facebook page</span>
               </a>

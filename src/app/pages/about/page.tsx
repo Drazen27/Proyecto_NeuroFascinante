@@ -8,7 +8,7 @@ export default function About() {
   return (
     <main >
       <section className="w-full  border-gray-200 min-h-[500px] animate-fadeIn" 
-      style={{backgroundImage: "url('/Images/Neurofascinante/TDAH 2.png')",
+      style={{backgroundImage: "url('https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FTDAH%202.png?alt=media&token=5e49f78e-b448-47ec-b1cf-5b73cc0ceb93')",
       backgroundSize: 'cover', backgroundPosition: 'center'}}>
         <div className=" bg-gray-600 bg-opacity-40 w-full h-full min-h-[500px] p-4">
           <div className="mx-4 mt-3 items-center">
@@ -52,7 +52,7 @@ export default function About() {
       </section>
       <section className="flex flex-wrap justify-center gap-6 mt-4">
       <AboutCards 
-      img={Images.PerfilMiro}
+      img='https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2FPerfil%2FMiroslava.png?alt=media&token=9e09fe23-62a4-421b-b3ad-905caabf1059'
       descPerfil="Psicóloga educativa con 4 años de experiencia en el trabajo con la población infantil. Trabajando a través de un enfoque comprensivo y empático con los niños, niñas y adolescentes, he sido partícipe del camino hacia el bienestar emocional y mental de mis pacientes, así como también de su progreso a nivel educativo. Mi objetivo es proporcionar un espacio seguro y acogedor donde los niños puedan explorar sus emociones, fortalezas y desafíos, mientras trabajamos juntos para cultivar su resiliencia y desarrollo positivo."
       descEstudios="Licenciatura en psicología"
       diplomados={["Educación Superior","Gestión de talento humano","Psicología Educativa con especialidad en dificultades específicas del aprendizaje"]}
@@ -60,7 +60,7 @@ export default function About() {
       animationOut="animate-fadeOutLeft"
       tresh={0.05}/>
       <AboutCards 
-      img={Images.PerfilCamila}
+      img='https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2FPerfil%2FCamila.jpg?alt=media&token=9cbde2c3-e16c-4647-ac43-73300a652552'
       descPerfil="Soy psicóloga comprometida con el bienestar emocional y el desarrollo integral de niños, niñas y familias. Mi enfoque se centra en proporcionar un ambiente de apoyo y comprensión donde mis pacientes puedan prosperar. Me mantengo en constante aprendizaje, explorando nuevas formas de abordar las necesidades individuales a través de una comprensión profunda de la neurociencia. Utilizo intervenciones personalizadas y colaborativas para ayudar a mis pacientes a superar obstáculos, desde dificultades de aprendizaje hasta trastornos del comportamiento. Mi compromiso con la mejora continua se refleja en mi dedicación a mantenerme actualizada con los últimos avances en investigación y en colaborar con otros profesionales para ofrecer el mejor apoyo posible a quienes atiendo."
       descEstudios="Licenciatura en psicología"
       diplomados={["Estudiando educación diferencial","Neuroeducación","Neurociencia","Mindfulness"]}

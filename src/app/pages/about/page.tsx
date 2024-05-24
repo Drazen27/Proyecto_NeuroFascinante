@@ -29,7 +29,7 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className="flex flex-wrap justify-center gap-0 my-8 mx-6">
+      <section className="flex flex-wrap justify-center gap-4 nv:gap-0 my-8 mx-6">
         <MisionVisionCards
         title="Misión"
         desc='"En Neuro Fascinante, nuestra misión es proporcionar servicios psicológicos especializados que promuevan el bienestar integral de niños, adolescentes y sus familias. Nos comprometemos a ofrecer un enfoque basado en evidencias científicas, combinado con una atención cálida y empática, para abordar las necesidades emocionales, cognitivas y sociales de nuestros clientes. Buscamos ser un faro de apoyo y guía, trabajando en colaboración con las familias para fomentar el crecimiento, la resiliencia y la inclusión en todas las etapas del desarrollo. Con un compromiso firme con la excelencia clínica y el avance de la investigación en psicología infantil, estamos dedicados a ser líderes en nuestro campo y a proporcionar el más alto nivel de cuidado y apoyo a aquellos que confían en nosotros para su bienestar emocional y mental."'

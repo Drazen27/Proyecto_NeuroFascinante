@@ -1,7 +1,4 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import MisionVisionCards from "@/app/componentes/misionvisionCards";
-import AboutCards from "@/app/componentes/aboutCard";
+
 import InformationCards from "@/app/componentes/informationCard";
 export default function DificultadAcademica() {
   return (

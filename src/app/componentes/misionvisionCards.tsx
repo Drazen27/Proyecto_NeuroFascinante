@@ -60,7 +60,7 @@ const MisionVisionCards: FC<MisionVisionCardsProps> = ({
         opacity: isVisible ? '1' : '0'
     }}
     onClick={toggleMenu}> 
-        <p className="text-center text-white font-serif font-bold text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-2 mt-[5%] nv:mt-[8%]">{title}</p>
+        <p className="text-center text-white font-serif font-bold text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-2 my-[5%]  ">{title}</p>
         { windowWidth <= 952?
         
             <div>

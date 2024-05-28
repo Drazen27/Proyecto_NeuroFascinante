@@ -1,7 +1,4 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import MisionVisionCards from "@/app/componentes/misionvisionCards";
-import AboutCards from "@/app/componentes/aboutCard";
+
 import InformationCards from "@/app/componentes/informationCard";
 export default function TerapiaAutismo() {
   return (
@@ -12,7 +9,7 @@ export default function TerapiaAutismo() {
       title="TERAPIA NIÑOS CON AUTISMO"
       desc="El Trastorno del Espectro Autista, denominado también autismo típico o autismo nuclear, está incluido dentro de los trastornos del neurodesarrollo. Éstos se manifiestan, normalmente, de manera precoz en el desarrollo, a menudo antes de que el niño/a empiece la escuela primaria, y se caracterizan por un déficit del desarrollo que produce deficiencias del funcionamiento personal, social, académico u ocupacional."
       desc2="La intervención conductual intensiva temprana, la terapia cognitivo-conductual y el entrenamiento en destrezas sociales son tipos de programas conductuales que beneficiarán a los niños en su desarrollo general."
-      lista={[""]}
+      lista={[]}
       animationIn="animate-fadeLeft"
       animationOut="animate-fadeOutLeft"
       tresh={0.05}/>

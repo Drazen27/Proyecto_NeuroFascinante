@@ -1,7 +1,3 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import MisionVisionCards from "@/app/componentes/misionvisionCards";
-import AboutCards from "@/app/componentes/aboutCard";
 import InformationCards from "@/app/componentes/informationCard";
 export default function SindromeDown() {
   return (
@@ -12,9 +8,12 @@ export default function SindromeDown() {
       title="TERAPIA A NIÑOS CON SINDROME DE DOWN U OTRAS DISCAPACIDADES"
       desc="El síndrome de Down es una afección en la que la persona tiene un cromosoma extra."
       desc2="El beneficio de la terapia neuropsicológica basada en evidencia científica tiene un valor importante en niños y niñas con síndrome de Down"
-      lista={["El niño consigue desarrollar sus capacidades al máximo.","Se evita que aparezcan problemas secundarios",
-        "Se consigue desarrollar su autonomía considerablemente","Hay una mejor adaptación al medio en el que se desenvuelve",
-        "El niño desarrolla conductas adecuadas a su edad"]}
+      lista={["Hay una mejor adaptación al medio en el que se desenvuelve",
+        "Se consigue desarrollar su autonomía considerablemente",
+        "El niño consigue desarrollar sus capacidades al máximo",
+        "El niño desarrolla conductas adecuadas a su edad",
+        "Se evita que aparezcan problemas secundarios"
+      ]}
       animationIn="animate-fadeLeft"
       animationOut="animate-fadeOutLeft"
       tresh={0.05}/>

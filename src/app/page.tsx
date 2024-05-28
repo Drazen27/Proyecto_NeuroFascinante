@@ -1,5 +1,4 @@
 'use client'
-import Image from "next/image";
 import ImageCards from "./componentes/imageCards";
 
 export default function Home() {
@@ -17,7 +16,8 @@ export default function Home() {
         </div>
       </section>
       
-      <section className="px-2 mt-8 flex flex-wrap justify-center gap-8">
+      <section className="px-2 mt-8 flex flex-wrap justify-center gap-8 ">
+        
         <ImageCards 
         title="Terapia Niños con TDAH" 
         img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FTDAH%203.png?alt=media&token=cfe5b794-0d7c-4a4c-977c-64bb55d1c32a'" 
@@ -29,6 +29,19 @@ export default function Home() {
         color="bg-sky-blue"
         w="w-[50%]"
         url="/pages/information/terapiaTDAH"/>
+        
+        <ImageCards 
+        title="Orientación a padres y hermanos " 
+        img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FOrientacion%20a%20padres.png?alt=media&token=5f635b13-b89a-46fb-8459-d2b036f82a62'" 
+        desc="Enfatiza el apoyo y la educación para la familia en su conjunto" 
+        xAxis="justify-end" 
+        yAxis="items-start" 
+        animationIn="animate-fadeIn"
+        animationOut="animate-fadeOut"
+        color="bg-lime-600"
+        w="w-[50%]"
+        url="/pages/information/orientacion"/>
+
         <ImageCards 
         title="Síndrome de Down y discapacidad" 
         img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FDown.png?alt=media&token=dc7628aa-8c50-4985-8ef0-7a62e712ab0c'" 
@@ -94,7 +107,7 @@ export default function Home() {
         animationOut="animate-fadeOut"
         color="bg-red-600"
         w="w-[54%]"
-        url="/pages/information/terpiaConductual"/>
+        url="/pages/information/terapiaConductual"/>
         <ImageCards 
         title="Terapia Emocional" 
         img="'https://firebasestorage.googleapis.com/v0/b/neurofascinante-e0387.appspot.com/o/images%2Fneurofascinante%2FTerapia%20emocional%201.png?alt=media&token=049904eb-0333-45b1-8f77-ef99ddc16074'" 

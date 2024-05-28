@@ -45,15 +45,16 @@ const InformationCards: FC<InformationCardsProps> = ({
             data-dropdown-toggle="dropdownInformation" 
             ref={ref}
             onClick={toggleMenu}
-            className={` bg-white flex flex-wrap h-fit    rounded-lg  w-[95%]
+            className={` bg-white flex flex-wrap h-fit    rounded-lg  w-[95%] 
             ${isVisible ? animationIn : animationOut}`}
         >
             <div className='flex flex-col items-center w-full h-[95%] nv:flex-row'>
                 <div
-                    className="rounded-t-lg nv:rounded-none nv:rounded-tl-lg w-full  min-h-[400px] nv:min-h-[700px]  2xl:min-h-[800px] h-full"
+                    className="rounded-t-lg nv:rounded-none nv:rounded-tl-lg w-full  min-h-[400px] nv:min-h-[700px]  2xl:min-h-[800px] h-full "
                     style={{backgroundImage: `url(${img})`,
                     backgroundSize: 'cover', backgroundPosition: 'center'}}
-                >  
+                > 
+                <div className="w-full min-h-[400px] nv:min-h-[700px] 2xl:min-h-[800px] bg-gradient-to-b nv:bg-gradient-to-r from-transparent to-white "></div>
                 </div>
                 <div className="flex flex-col px-10 pt-0 pb-4 w-full nv:w-[75%] ">
                     <div className="flex flex-col justify-between p-4 leading-normal">
@@ -66,7 +67,7 @@ const InformationCards: FC<InformationCardsProps> = ({
                         {lista.map((list, index) => (
                             <span
                                 key={index}
-                                className="bg-gray-200 rounded-lg px-5 py-3 text-sm font-semibold w-fit text-gray-700 mr-2 mb-2"
+                                className="bg-gray-200 rounded-lg px-5 py-3 text-center text-sm font-semibold w-fit text-gray-700 mr-2 mb-2"
                             >
                                 {list}
                             </span>

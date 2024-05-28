@@ -45,7 +45,7 @@ const ImageCards: FC<ImageCardsProps> = ({
         <Link href={url} className=' nv:transition nv:ease-in-out nv:delay-100 nv:hover:-translate-y-1 nv:hover:scale-110 nv:duration-100'>
             <div
                 ref={ref}
-                className={`flex ${yAxis} ${xAxis} min-h-[400px] max-w-[600px] ${isVisible ? animationIn : animationOut}`}
+                className={`flex ${yAxis} ${xAxis} min-h-[400px] max-w-[600px] min-[600px]:min-w-[600px]   ${isVisible ? animationIn : animationOut}`}
                 style={{
                     backgroundImage: `url(${img})`,
                     backgroundSize: 'cover',
@@ -54,11 +54,11 @@ const ImageCards: FC<ImageCardsProps> = ({
                 }}
             >
                 <div className={`${w} p-0 shadow-md items-center justify-center`}>
-                    <div className={`w-full h-fit p-3 ${color} bg-opacity-50`}>
-                        <h5 className="mb-2 text-xl md:text-2xl text-center font-bold tracking-tight text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>{title}</h5>
+                    <div className={`w-full  h-fit p-3 ${color} bg-opacity-50`}>
+                        <h5 className="mb-2  text-xl md:text-2xl text-center font-bold tracking-tight text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>{title}</h5>
                     </div>
                     <div className="w-full h-fit p-4 bg-gray-400 bg-opacity-50">
-                        <p className="mb-3 font-normal text-base md:text-sm md:mb-1 lg:text-base xl:text-base text-center text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>{desc}</p>
+                        <p className="mb-3  font-normal text-sm nv:text-base nv:mb-1  text-center text-white" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 1)' }}>{desc}</p>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
 
 const Footer: React.FC = () => {
@@ -24,6 +22,9 @@ const Footer: React.FC = () => {
                       </li>
                       <li className="mb-1">
                           <p className="">Terapia Emocional</p>
+                      </li>
+                      <li className="mb-1">
+                          <p className="">Terapia Niños con Autismo </p>
                       </li>
                       <li className="mb-1">
                           <p className="">Terapia Niños con TDAH</p>
